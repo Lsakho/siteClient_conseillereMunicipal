@@ -21,3 +21,70 @@
     background-color: #6f1010;
     color: #fff;
 }
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Appliquez l'animation à l'élément avec la classe .chanteuse-lyrique */
+.chanteuse-lyrique {
+    animation: blink 5s; /* Ajoutez l'animation à l'élément */
+}
+
+.contact-form {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: box-shadow 0.3s; /* Transition de l'ombre au focus */
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    box-shadow: 0 0 5px #f06292; /* Ombre au focus */
+}
+
+.contact-form button {
+    background-color: #f06292;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition de couleur au hover */
+}
+
+.contact-form button:hover {
+    background-color: #d81b60; /* Couleur différente au hover */
+}
