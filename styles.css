@@ -88,3 +88,18 @@
 .contact-form button:hover {
     background-color: #d81b60; /* Couleur différente au hover */
 }
+.image-containerPrescille{
+    align-items: center;
+}
+h1{
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 30px;
+    size: 35px;
+}
+
+.homeTitle2{
+    font-size: 23px;
+    text-decoration: underline; /* Ajoute un soulignement */
+    color: red; /* Définit la couleur du texte en rouge */
+}
