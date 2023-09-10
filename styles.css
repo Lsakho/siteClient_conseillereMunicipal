@@ -18,7 +18,7 @@
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    background-color: #6f1010;
+    background-color: crimson;
     color: #fff;
 }
 
@@ -102,4 +102,27 @@ h1{
     font-size: 23px;
     text-decoration: underline; /* Ajoute un soulignement */
     color: red; /* Définit la couleur du texte en rouge */
+}
+.social-icons a:not(:last-child) {
+    margin-right: 10px; /* Ajustez la valeur selon votre préférence */
+}
+
+/* Couleur Facebook */
+.facebook-icon {
+    color: #1877F2;
+}
+
+/* Couleur Instagram */
+.instagram-icon {
+    color: #E4405F;
+}
+
+/* Couleur LinkedIn */
+.linkedin-icon {
+    color: #0077B5;
+}
+
+/* Couleur Twitter */
+.twitter-icon {
+    color: #1DA1F2;
 }
