@@ -1,77 +1,68 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Priscile Dia Laplace</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <link href="./lightbox2-2.11.4/src/css/lightbox.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
+    <title>Priscille Dia-laplace</title>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">PriscilLe Dia Laplace</a>
-                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/about.html">À Propos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/actualite.html">Actualité</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/programme.html">Programme</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/galerie.html">Galerie</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link chanteuse-lyrique" href="http://priscillelaplace.com/index.html">Chanteuse Lyrique</a>
-                        </li>
-                    </ul>
+    <header class="container">
+        <div class="page-header">
+            <div class="logo">
+                <a href="index.html">Priscille</a>
+            </div>
+            <input type="checkbox" id="click">
+
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="./pages/about.html">À Propos</a></li>
+                <li><a href="./pages/actualite.html">Actualité</a></li>
+                <li><a href="./pages/galerie.html">Galerie</a></li>
+                <li><a href="./pages/programme.html">Programme</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+                <li><a href="./pages/contact.html" class="active">Chanteuse lyrique</a></li>
+                
+            </ul>
+            <label class="mode">
+                <input type="checkbox" id="darkModeToggle">
+                <i class='bx bxs-moon'></i>
+            </label>
+        </div>
+    </header>
+
+
+    <section class="container">
+        <div class="main">
+            <div class="detail">
+                <h3>Candidate au Conseil national pour le Parti Socialiste à Genève</h3>
+                <h1>Priscille <span style="color:#f92d2d;">Dia-Laplace</span></h1>
+                <p>Conseillère municipale(PS) Lancy, Genève
+                </p>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
                 </div>
             </div>
-        </nav>
-    </header>
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-md-6">
-                <h1 class="homeTitle">Priscille Dia-Laplace</h1>
-                <h1 class="homeTitle">Conseillère municipale(PS) Lancy, Genève</h1>
-                <h2 class="homeTitle2">Candidate au Conseil national pour le Parti Socialiste à Genève</h2>
-                <br>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/priscille-dia-laplace-982a72b9/" target="_blank"><i class="fab fa-linkedin-in linkedin-icon fa-2x"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-facebook-f facebook-icon fa-2x"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-twitter twitter-icon fa-2x"></i></a>
-                    <a href="https://instagram.com/priscilledialaplace" target="_blank"><i class="fab fa-instagram instagram-icon fa-2x"></i></a>
-                </div>                               
-            </div>
-            <div class="col-md-6 text-center">
-                <a href="./images/profilPrescille.jpg" data-lightbox="gallery1">
-                    <img src="./images/profilPrescille.jpg" class="img-fluid w-55 h-auto" alt="">
-                </a>               
+            <div class="img-sec">
+                <div class="images">
+                    <img src="images/profilPrescille.jpg" alt="" class="img-w">
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    <script src="srcipt.js"></script>
     
-   
-
-
-  
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./lightbox2-2.11.4/src/js/lightbox.js"></script>
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
+
 </html>
