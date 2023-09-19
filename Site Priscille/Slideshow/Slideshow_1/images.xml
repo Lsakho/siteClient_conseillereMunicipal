@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<gallery>
+		<album title="Ariadne auf Naxos" description="photos by ORW Liège © Jacques Croisier" lgPath="gallery/album1/lg/">
+			<img src="couv_slideshow.jpg" title="" caption="" link=""/>
+			<img src="ariadne_auf_naxos_1.jpg" title="" caption="" link=""/>
+			<img src="ariadne_auf_naxos_2.jpg" title="" caption="" link=""/>
+			<img src="ariadne_auf_naxos_3.jpg" title="" caption="" link=""/>
+			<img src="ariadne_auf_naxos_4.jpg" title="" caption="" link=""/>
+			<img src="ariadne_auf_naxos_5.jpg" title="" caption="" link=""/>
+			<img src="ariadne_auf_naxos_6.jpg" title="" caption="" link=""/>
+			<img src="ariadne_auf_naxos_7.jpg" title="" caption="" link=""/>
+		</album>
+	</gallery>

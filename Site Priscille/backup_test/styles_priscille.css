@@ -1,0 +1,51 @@
+.texte_francais {
+	font-family: Arial;
+	font-size:10pt;
+	color: #FFF;
+	text-align: left;
+	vertical-align: top;
+	letter-spacing: normal;
+}
+.texte_anglais {
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: top;
+	color: #913ddb;
+}
+.texte_annees {
+	font-family: Arial;
+	font-size: 14pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFF;
+}
+.legende_photo {
+	font-family: Arial;
+	font-size: 6.5pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #333;
+}
+.liens {
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	color: #999;
+	font-weight: normal;
+}
+.texte_violett {
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	color: #913ddb;
+}
+.texte_noir {
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	line-height: normal;
+	color: #000;
+}

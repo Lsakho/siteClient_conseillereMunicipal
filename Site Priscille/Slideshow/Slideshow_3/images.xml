@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<gallery>
+		<album title="Il Matrimonio segreto" description="photos by ORW Liège © Jacques Croisier" lgPath="gallery/album3/lg/">
+			<img src="couv_slideshow.jpg" title="" caption="" link=""/>
+			<img src="matrimonio_segreto_1.jpg" title="" caption="" link=""/>
+			<img src="matrimonio_segreto_2.jpg" title="" caption="" link=""/>
+			<img src="matrimonio_segreto_3.jpg" title="" caption="" link=""/>
+			<img src="matrimonio_segreto_4.jpg" title="" caption="" link=""/>
+			<img src="matrimonio_segreto_5.jpg" title="" caption="" link=""/>
+		</album>
+	</gallery>

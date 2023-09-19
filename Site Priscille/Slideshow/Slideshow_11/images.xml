@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<gallery>
+		<album title="Carmen" description="photos © Sylvain Geerts" lgPath="gallery/album11/lg/">
+			<img src="couv_slideshow_11.jpg" title="" caption="" link=""/>
+			<img src="carmen_1.jpg" title="" caption="" link=""/>
+			<img src="carmen_2.jpg" title="" caption="" link=""/>
+			<img src="carmen_3.jpg" title="" caption="" link=""/>
+			<img src="carmen_4.jpg" title="" caption="" link=""/>
+			<img src="carmen_5.jpg" title="" caption="" link=""/>
+			<img src="carmen_6.jpg" title="" caption="" link=""/>
+			<img src="carmen_7.jpg" title="" caption="" link=""/>
+		</album>
+	</gallery>

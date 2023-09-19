@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<gallery>
+		<album title="Ensemble Cantatio" description="photos © Amator Ortega" lgPath="gallery/album2/lg/">
+			<img src="couv_slideshow.jpg" title="" caption="" link=""/>
+			<img src="ensemble_cantatio_1.jpg" title="" caption="" link=""/>
+			<img src="ensemble_cantatio_2.jpg" title="" caption="" link=""/>
+			<img src="ensemble_cantatio_3.jpg" title="" caption="" link=""/>
+			<img src="ensemble_cantatio_4.jpg" title="" caption="" link=""/>
+			<img src="ensemble_cantatio_5.jpg" title="" caption="" link=""/>
+			<img src="ensemble_cantatio_6.jpg" title="" caption="" link=""/>
+			<img src="ensemble_cantatio_7.jpg" title="" caption="" link=""/>
+			<img src="ensemble_cantatio_8.jpg" title="" caption="" link=""/>
+			<img src="ensemble_cantatio_9.jpg" title="" caption="" link=""/>
+		</album>
+	</gallery>

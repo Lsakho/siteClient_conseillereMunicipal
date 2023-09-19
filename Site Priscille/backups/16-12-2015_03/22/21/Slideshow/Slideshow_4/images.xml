@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<gallery>
+		<album title="La Chauve-Souris" description="photos by ORW Liège © Jacques Croisier" lgPath="gallery/album4/lg/">
+			<img src="couv_slideshow.jpg" title="" caption="" link=""/>
+			<img src="la_chauve_souris_1.jpg" title="" caption="" link=""/>
+			<img src="la_chauve_souris_2.jpg" title="" caption="" link=""/>
+			<img src="la_chauve_souris_3.jpg" title="" caption="" link=""/>
+			<img src="la_chauve_souris_4.jpg" title="" caption="" link=""/>
+			<img src="la_chauve_souris_5.jpg" title="" caption="" link=""/>
+			<img src="la_chauve_souris_6.jpg" title="" caption="" link=""/>
+			<img src="la_chauve_souris_7.jpg" title="" caption="" link=""/>
+			<img src="la_chauve_souris_8.jpg" title="" caption="" link=""/>
+			<img src="la_chauve_souris_9.jpg" title="" caption="" link=""/>
+			<img src="la_chauve_souris_10.jpg" title="" caption="" link=""/>
+		</album>
+	</gallery>

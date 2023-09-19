@@ -26,3 +26,64 @@ darkModeToggle.addEventListener('change', () => {
     console.log("Mode sombre activé :", darkModeToggle.checked);
 
 });
+
+// Sélectionnez tous les boutons dans la section
+const buttons = document.querySelectorAll('section button');
+
+// Fonction pour changer la langue
+function changerLangue(langue) {
+    // Mettez ici la logique pour changer la langue en fonction de la valeur de 'langue'
+    // Par exemple, mettre à jour le contenu en fonction de la langue sélectionnée
+    // Vous pouvez ajouter ici votre propre logique pour gérer le changement de langue
+    const detail = document.querySelector('.detail');
+    const social = document.querySelector('.social');
+
+    if (langue === 'francais') {
+        // Code pour passer à la langue française
+        detail.innerHTML = `
+            <h3>Candidate au Conseil national pour le Parti Socialiste à Genève</h3>
+            <h1>Priscille <span style="color:#f92d2d;">Dia-Laplace</span></h1>
+            <p>Conseillère municipale(PS) Lancy, Genève</p>
+        `;
+        social.innerHTML = `
+            <a href="https://www.linkedin.com/in/priscille-dia-laplace-982a72b9"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/priscilledialaplace/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.facebook.com/priscille.laplace?locale=fr_FR"><i class='bx bxl-facebook-circle'></i></a>
+        `;
+    } else if (langue === 'deutch') {
+        // Code pour passer à la langue allemande
+        detail.innerHTML = `
+            <h3>Kandidatin für den Nationalrat für die Sozialdemokratische Partei in Genf</h3>
+            <h1>Priscille <span style="color:#f92d2d;">Dia-Laplace</span></h1>
+            <p>Gemeinderätin (SP) Lancy, Genf</p>
+        `;
+        social.innerHTML = `
+            <a href="https://www.linkedin.com/in/priscille-dia-laplace-982a72b9"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/priscilledialaplace/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.facebook.com/priscille.laplace?locale=fr_FR"><i class='bx bxl-facebook-circle'></i></a>
+        `;
+    } else if (langue === 'italien') {
+        // Code pour passer à la langue italienne
+        detail.innerHTML = `
+            <h3>Candidata al Consiglio nazionale per il Partito Socialista a Ginevra</h3>
+            <h1>Priscille <span style="color:#f92d2d;">Dia-Laplace</span></h1>
+            <p>Consigliera comunale (PS) Lancy, Ginevra</p>
+        `;
+        social.innerHTML = `
+            <a href="https://www.linkedin.com/in/priscille-dia-laplace-982a72b9"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/priscilledialaplace/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.facebook.com/priscille.laplace?locale=fr_FR"><i class='bx bxl-facebook-circle'></i></a>
+        `;
+    }
+}
+
+// Parcourez tous les boutons et ajoutez un gestionnaire d'événements à chacun
+buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+        // Obtenez la langue à partir de l'attribut data-lang du bouton cliqué
+        const langue = button.getAttribute('data-lang');
+
+        // Appelez la fonction changerLangue avec la langue correspondante
+        changerLangue(langue);
+    });
+});

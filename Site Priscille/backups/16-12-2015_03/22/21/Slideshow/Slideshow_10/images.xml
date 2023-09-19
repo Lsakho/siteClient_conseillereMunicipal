@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<gallery>
+		<album title="Die Zauberflöte" description="photos © Jacques Croisier" lgPath="gallery/album10/lg/">
+			<img src="couv_slideshow_10.jpg" title="" caption="" link=""/>
+			<img src="die_zauberfloete_1.jpg" title="" caption="" link=""/>
+			<img src="die_zauberfloete_2.jpg" title="" caption="" link=""/>
+			<img src="die_zauberfloete_3.jpg" title="" caption="" link=""/>
+			<img src="die_zauberfloete_4.jpg" title="" caption="" link=""/>
+			<img src="die_zauberfloete_5.jpg" title="" caption="" link=""/>
+			<img src="die_zauberfloete_6.jpg" title="" caption="" link=""/>
+			<img src="die_zauberfloete_7.jpg" title="" caption="" link=""/>
+		</album>
+	</gallery>

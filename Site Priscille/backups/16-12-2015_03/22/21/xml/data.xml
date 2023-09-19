@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<datas>
+
+	
+
+	<data>
+		<name><![CDATA[In furore justissimae irae" de Vivaldi]]></name>
+		<description><![CDATA[Live, "In furore justissimae irae" de Vivaldi, Teatro Olimpico di Vicenza, dir. Monica Huggett, Orchestra Barocca "I Musicali Affetti" Fabio Missagia]]></description>
+		<link>extraits/vivaldi.flv</link>
+		<type>video</type>
+	</data>
+	<data>
+		<name><![CDATA[Messe in Si de Bach]]></name>
+		<description><![CDATA[Live, Messe in Si de Bach, "et in unum", 12 avril 2006, Freitags-Akademie, direction Philippe Huttenlocher, Brigitte Ravenel mezzo-soprano, Collégiale de Neuchâtel]]></description>
+		<link>extraits/bach.mp3</link>
+		<type>music</type>
+	</data>
+	<data>
+		<name><![CDATA[Israel en Egypte de Haendel]]></name>
+		<description><![CDATA[Live, Israel en Egypte de Haendel, "Thou didst blow", mars 2004, Victoria Hall, direction John Duxbury, Ensemble Cantatio]]></description>
+		<link>extraits/haendel.mp3</link>
+		<type>music</type>
+	</data>
+	<data>
+		<name><![CDATA["Mignon de Schubert"]]></name>
+		<description><![CDATA[Live, "Mignon de Schubert", arrangement pour Quatuor à cordes de Aribert Reimann, Quatuor Sine Nomine et Priscille Laplace soprano, Festival Sine Nomine, 10 juin 2007, en direct de l'Aula des Cèdres à Lausanne, Espace 2, Jean-Pierre Amann]]></description>
+		<link>extraits/schubert.mp3</link>
+		<type>music</type>
+	</data>
+	<data>
+		<name><![CDATA[Ariadne auf Naxos" de Richard Strauss]]></name>
+		<description><![CDATA[Live, Air de Zerbinetta dans "Ariadne auf Naxos" de Richard Strauss, "Grossmächtige Prinzessin", orchestre de la Haute Ecole de Musique de Genève, diplôme de soliste, Grande salle du Conservatoire de Musique de Genève, épreuve avec orchestre 3 mars 2007]]></description>
+		<link>extraits/strauss.mp3</link>
+		<type>music</type>
+	</data>
+	<data>
+		<name><![CDATA["Canticle of the sun" avec l'OCG]]></name>
+		<description><![CDATA[Live, "Canticle of the sun" de Amy Beach, 29 mai 2008, Victoria Hall, Orchestre de Chambre de Genève, direction Didier Godel]]></description>
+		<link>extraits/canticle.mp3</link>
+		<type>music</type>
+	</data>
+	<data>
+		<name><![CDATA["Trakl Lied" de William Blank]]></name>
+		<description><![CDATA[Live, "Trakl Lied" de William Blank, de William Blank, Quatuor Sine Nomine et Priscille Laplace soprano, Festival Sine Nomine, 10 juin 2007, en direct de l'Aula des Cèdres à Lausanne, Espace 2, Jean-Pierre Amann]]></description>
+		<link>extraits/blank.mp3</link>
+		<type>music</type>
+	</data>
+	<data>
+		<name><![CDATA[Lied: "Aus den hebräischen Gesängen"]]></name>
+		<description><![CDATA["Aus den hebräischen Gesängen", extrait de "Myrthen" (op.25) de Robert Schumann, Fabrizio Chiovetta Piano. Enregistré au Conservatoire de Musique de Genève (Grande Salle) le 19 novembre 2009]]></description>
+		<link>extraits/schumann.mp3</link>
+		<type>music</type>
+	</data>
+	<data>
+		<name><![CDATA["Coro" de Luciano Berio]]></name>
+		<description><![CDATA[Samedi 13 juin 2009, Festival Agora, Cité de la Musique, Paris. Direction Michel Tabachnik. Orchestre Philharmonique de Bruxelles. Vlaams Radio Koor. 
+Priscille Laplace 1er soprano solo]]></description>
+		<link>extraits/coro-dir_tabachnik.mp3</link>
+		<type>music</type>
+	</data>
+</datas>

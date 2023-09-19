@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<gallery>
+		<album title="Priscille Laplace" description="photos © Jacques Amador Ortega" lgPath="gallery/album8/lg/">
+			<img src="couv_slideshow.jpg" title="" caption="" link=""/>
+			<img src="priscille_laplace_1.jpg" title="" caption="" link=""/>
+			<img src="priscille_laplace_2.jpg" title="" caption="" link=""/>
+			<img src="priscille_laplace_3.jpg" title="" caption="" link=""/>
+			<img src="priscille_laplace_4.jpg" title="" caption="" link=""/>
+		</album>
+	</gallery>

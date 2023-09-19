@@ -1,0 +1,18 @@
+SetEnvif Request_URI "^/stats/showstats.php$" showstats
+
+AuthType Basic
+AuthName "statistics"
+AuthBasicProvider external
+AuthExternal pwauth
+require group gid16297
+
+Order deny,allow
+Deny from all
+Allow from env=showstats
+
+<Files .tokens>
+Order deny,allow
+Deny from all
+</Files>
+
+Satisfy any

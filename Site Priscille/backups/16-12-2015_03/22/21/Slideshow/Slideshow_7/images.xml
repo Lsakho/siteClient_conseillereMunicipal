@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<gallery>
+		<album title="Il campanello do notte" description="photos © Amador Ortega" lgPath="gallery/album7/lg/">
+			<img src="couv_slideshow.jpg" title="" caption="" link=""/>
+			<img src="il_campanello_1.jpg" title="" caption="" link=""/>
+			<img src="il_campanello_2.jpg" title="" caption="" link=""/>
+			<img src="il_campanello_3.jpg" title="" caption="" link=""/>
+			<img src="il_campanello_4.jpg" title="" caption="" link=""/>
+			<img src="il_campanello_5.jpg" title="" caption="" link=""/>
+			<img src="il_campanello_6.jpg" title="" caption="" link=""/>
+			<img src="il_campanello_7.jpg" title="" caption="" link=""/>
+			<img src="il_campanello_8.jpg" title="" caption="" link=""/>
+			<img src="il_campanello_9.jpg" title="" caption="" link=""/>
+		</album>
+	</gallery>

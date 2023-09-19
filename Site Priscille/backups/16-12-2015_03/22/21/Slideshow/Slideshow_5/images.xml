@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<gallery>
+		<album title="Le Pays du Sourire" description="photos by ORW Liège © Jacques Croisier" lgPath="gallery/album5/lg/">
+			<img src="couv_slideshow.jpg" title="" caption="" link=""/>
+			<img src="pays_du_sourire_1.jpg" title="" caption="" link=""/>
+			<img src="pays_du_sourire_2.jpg" title="" caption="" link=""/>
+			<img src="pays_du_sourire_3.jpg" title="" caption="" link=""/>
+			<img src="pays_du_sourire_4.jpg" title="" caption="" link=""/>
+			<img src="pays_du_sourire_5.jpg" title="" caption="" link=""/>
+			<img src="pays_du_sourire_6.jpg" title="" caption="" link=""/>
+			<img src="pays_du_sourire_7.jpg" title="" caption="" link=""/>
+			<img src="pays_du_sourire_8.jpg" title="" caption="" link=""/>
+			<img src="pays_du_sourire_9.jpg" title="" caption="" link=""/>
+			<img src="pays_du_sourire_10.jpg" title="" caption="" link=""/>
+			<img src="pays_du_sourire_11.jpg" title="" caption="" link=""/>
+		</album>
+	</gallery>
