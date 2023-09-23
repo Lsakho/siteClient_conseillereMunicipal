@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/dist/umd/i18next.min.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
     <title>Priscille Dia-laplace</title>
@@ -24,13 +25,13 @@
                 </div>
             </label>
             <ul>
-                <li><a href="./pages/about.html">À Propos</a></li>
-                <li><a href="./pages/actualite.html">Actualité</a></li>
-                <li><a href="./pages/galerie.html">Galerie</a></li>
-                <li><a href="./pages/programme.html">Programme</a></li>
-                <li><a href="./pages/contact.html">Contact</a></li>
-                <li><a href="./Site Priscille/index.html" class="active">Chanteuse lyrique</a></li>
-                
+                <li data-i18n="menu.about"><a href="./pages/about.html">À Propos</a></li>
+                <li data-i18n="menu.news"><a href="./pages/actualite.html">Actualité</a></li>
+                <li data-i18n="menu.gallery"><a href="./pages/galerie.html">Galerie</a></li>
+                <li data-i18n="menu.program"><a href="./pages/programme.html">Programme</a></li>
+                <li data-i18n="menu.contact"><a href="./pages/contact.html">Contact</a></li>
+                <li data-i18n=""><a href="./Site Priscille/index.html" class="active">Chanteuse lyrique</a></li>
+
             </ul>
             <label class="mode">
                 <input type="checkbox" id="darkModeToggle">
@@ -38,32 +39,77 @@
             </label>
         </div>
     </header>
-   
-    
+
+
 
     <section class="container">
         <div class="main">
             <div class="detail">
-                <h3>Candidate au Conseil national pour le Parti Socialiste à Genève</h3>
-                <h1>Priscille <span style="color:#f92d2d;">Dia-Laplace</span></h1>
-                <p>Conseillère municipale(PS) Lancy, Genève
+                <h3 data-i18n="main.title">Candidate au Conseil national pour le Parti Socialiste à Genève</h3>
+                <h1 data-i18n="main.name">Priscille <span style="color:#f92d2d;">Dia-Laplace</span></h1>
+                <p data-i18n="main.municipalCounselor">Conseillère municipale(PS) Lancy, Genève
                 </p>
                 <div class="social">
                     <!-- <a href="https://www.linkedin.com/in/priscille-dia-laplace-982a72b9"><i class='bx bxl-linkedin'></i></a> -->
                     <a href="https://www.instagram.com/priscilledialaplace/"><i class='bx bxl-instagram'></i></a>
                     <!-- <a href="#"><i class='bx bxl-twitter'></i></a> -->
-                    <a href="https://www.facebook.com/priscille.laplace?locale=fr_FR"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.facebook.com/priscille.laplace?locale=fr_FR"><i
+                            class='bx bxl-facebook-circle'></i></a>
                 </div>
+                <div class="bouton">
+                    <br>
+                    <button data-i18n="button.french" class="custom-button" data-lang="fr">Français</button>
+                    <button data-i18n="button.italian" class="custom-button" data-lang="it">Italien</button>
+                    <button data-i18n="button.german" class="custom-button" data-lang="de">Deutsch</button>
+
+                </div>
+
             </div>
             <div class="img-sec">
                 <div class="images">
-                    <img src="images/profilPrescille.jpg" alt="" class="img-w">
+                    <img src="images/profilPrescille1.jpeg" alt="" class="img-w">
                 </div>
             </div>
         </div>
     </section>
+    <div class="container">
+        <p data-i18n="main.teste"> 
+            De la musique à la politique en passant par les syndicats
+            Suite à une carrière internationale de chant qui s’achève en 2015 avec le disque
+            « Myrthen »,enregistré avec Fabrizzio Chiovetta à Dobbiaco (Italie) et après
+            être redevenue sédentaire afin de se consacrer à sa famille, Priscille Dia-
+            Laplace réalise la détérioration des services publics à Genève et en Suisse et
+            décide de se syndiquer à la FAMCO (en tant qu’enseignante) et au SSP (en tant
+            que fonctionnaire). Les grandes grèves de 2015 sont l’occasion de manifester
+            contre le délitement du service public et la création de lois iniques telle que
+            « Personal Stop » lancées par une droite de plus en plus agressive et
+            dangereuse selon son point de vue. <br>
+            En 2017, toujours syndiquées et engagée à ce niveau-là, elle décide ensuite
+            d’entrer en politique afin de pouvoir agir en amont et choisit le Parti Socialiste,
+            plus grand parti de gauche en Suisse à être représenté tant au niveau
+            communal, cantonal que fédéral et issu du monde syndical. <br>
+            En 2019, elle est élue au comité directeur du Parti Socialiste à Genève en tant
+            que représentante de l’Assemblée Générale.
+            En 2020, elle devient Conseillère Municipale à Lancy et est actuellement cheffe
+            de groupe des conseillers municipaux de sa commune. <br>
+            En 2022, elle soutient activement la campagne de Thierry Apothéloz qui est
+            réélu en tant que Conseiller d’Etat à Genève. <br>
+            En 2023, elle est candidate au Conseil national et fait campagne aux côtés de
+            ses brillant-e-s colistières et colistiers Christian Dandrès, Estelle Revaz, Thomas
+            Wenger, Laurence Fehlmann Rielle, Cyril Mizrahi, Léna Strasser, Sami Kanaan,
+            Joëlle Bertossat, Florian Schweri, Oriana Brücker et Thomas Bruchez.
+        </p>
+
+    </div>
+    <footer>
+        <p>
+            copyright(©) Priscille Dia-laplace 2023 tout droits reservés
+        </p>
+    </footer>
+
     <script src="srcipt.js"></script>
-    
+    <script src="scriptlangue.js"></script>
+
 </body>
 
 </html>
