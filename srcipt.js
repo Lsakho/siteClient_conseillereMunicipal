@@ -87,3 +87,21 @@ buttons.forEach((button) => {
         changerLangue(langue);
     });
 });
+
+
+        // Fonction pour basculer les détails
+        function toggleDetails(element) {
+            // Trouver l'élément parent de la classe "list-group-item"
+            const listItem = element.closest('.list-group-item');
+            // Trouver l'élément des détails à l'intérieur de "list-item"
+            const details = listItem.querySelector('.details');
+            
+            // Vérifier si les détails sont actuellement visibles
+            if (details.style.display === 'block' || details.style.display === '') {
+                // Cacher les détails
+                details.style.display = 'none';
+            } else {
+                // Afficher les détails
+                details.style.display = 'block';
+            }
+        }
